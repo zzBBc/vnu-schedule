@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/zzBBc/vnu-schedule.svg?branch=master)](https://travis-ci.com/zzBBc/vnu-schedule)
 # Cách sử dụng
 # Do chưa làm GUI :v
 - Đăng nhập trang đăng ký học của VNU sau đó get html, hoặc sử dụng tool của Nguyễn Bá Nghĩa get file AmazonLoggedIn.html
