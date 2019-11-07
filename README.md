@@ -10,8 +10,8 @@
 - Chạy class OptimizeSchedule trong package optimizeSchedule
 - Cuối cùng bạn có được file TKB.xlsx là file sẽ lưu trữ tất cả những thời khóa biểu để đăng ký phù hợp với yêu cầu của bạn.
 
-# vnu-schedule-tinchi
-Thời khóa biểu vnu trước khi đăng ký tín chỉ
+# vnu-schedule
+Tạo thời khóa biểu khả dụng của vnu trước khi đăng ký tín chỉ, tạo thuận lợi cho việc đăng ký môn
 
 # New feature
 - Sử dụng Jsoup cho sever để bóc dữ liệu từ html thay cho việc sử dụng tool NBN
