@@ -14,8 +14,8 @@
 Thời khóa biểu vnu trước khi đăng ký tín chỉ
 
 # New feature
-Sử dụng Jsoup cho sever để bóc dữ liệu từ html thay cho việc sử dụng tool NBN
-Sử dụng json thay cho excel
+- Sử dụng Jsoup cho sever để bóc dữ liệu từ html thay cho việc sử dụng tool NBN
+- Sử dụng json thay cho excel
 
 # Cần có account VNU để get lịch trực tiếp từ trang dangkyhoc và parse to AmazonLoggedIn.txt
 Sử dụng đoạn js của anh Nguyễn Bá Nghĩa vì mình chưa code đoạn này
