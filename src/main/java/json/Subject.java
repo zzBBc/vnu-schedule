@@ -15,17 +15,11 @@ public class Subject {
 	private String name;
 	private int credit;
 	private String code;
-	private List<Time> time;
+
+	private Time[] time;
 
 	public Subject() {
 
-	}
-
-	public Subject(String name, int credit, String code, List<Time> time) {
-		this.name = name;
-		this.credit = credit;
-		this.code = code;
-		this.time = time;
 	}
 
 	public String getCode() {
@@ -38,7 +32,7 @@ public class Subject {
 	public String getName() {
 		return name;
 	}
-	public List<Time> getTime() {
+	public Time[] getTime() {
 		return time;
 	}
 
@@ -52,7 +46,7 @@ public class Subject {
 		this.name = name;
 	}
 	public void setTime(String contentLine) {
-		List<Time> time = new ArrayList<>();
+		List<Time> tempTime = new ArrayList<>();
 		String a = contentLine.replaceAll("[(]", "");
 		String b =  a.replaceAll("[)]", "");
 
@@ -73,8 +67,9 @@ public class Subject {
 			toTimeObject.setTimeEnd(Integer.parseInt(aTimeInDay[TIME_END_NUM]));
 			toTimeObject.setRoom(aTimeInDay[ROOM_NUM]);
 
-			time.add(toTimeObject);
+			tempTime.add(toTimeObject);
 		});
+		Time[] time = tempTime.toArray(new Time[0]);
 		this.time = time;
 	}
 

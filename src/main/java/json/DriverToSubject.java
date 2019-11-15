@@ -26,9 +26,7 @@ public class DriverToSubject {
 	}
 
 	public static void setName(Subject[] subjects) throws JsonParseException, JsonMappingException, IOException {
-		ObjectMapper mapper = new ObjectMapper();
-
-		NameSubject[] nameSubjects = mapper.readValue(new File("./data/nameSubject.json"), NameSubject[].class);
+		NameSubject[] nameSubjects = InputJson.getNameSubject();
 
 		for(Subject subject: subjects)
 			for(NameSubject nameSubject: nameSubjects)
@@ -38,5 +36,4 @@ public class DriverToSubject {
 					break;
 				}
 	}
-
 }
