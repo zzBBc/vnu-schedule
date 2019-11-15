@@ -1,5 +1,5 @@
+[![Build Status](https://travis-ci.com/zzBBc/vnu-schedule.svg?branch=master)](https://travis-ci.com/zzBBc/vnu-schedule)
 # Cách sử dụng
-# Do chưa làm GUI :v
 - Đăng nhập trang đăng ký học của VNU sau đó get html, hoặc sử dụng tool của Nguyễn Bá Nghĩa get file AmazonLoggedIn.html
 - Copy file vào trong thư mục vnu-schedule-tinchi
 - Đổi phần mở rộng của file AmazonLoggedIn.html thành AmazonLoggedIn.txt.
@@ -10,20 +10,20 @@
 - Chạy class OptimizeSchedule trong package optimizeSchedule
 - Cuối cùng bạn có được file TKB.xlsx là file sẽ lưu trữ tất cả những thời khóa biểu để đăng ký phù hợp với yêu cầu của bạn.
 
-# vnu-schedule-tinchi
-Thời khóa biểu vnu trước khi đăng ký tín chỉ
+# vnu-schedule
+Tạo thời khóa biểu khả dụng của vnu trước khi đăng ký tín chỉ, tạo thuận lợi cho việc đăng ký môn
 
-# New idea??
-Sử dụng Jsoup cho sever để bóc dữ liệu từ html
+# New feature
+- Sử dụng Jsoup cho sever để bóc dữ liệu từ html thay cho việc sử dụng tool NBN
+- Sử dụng json thay cho excel
 
 # Cần có account VNU để get lịch trực tiếp từ trang dangkyhoc và parse to AmazonLoggedIn.txt
-Sử dụng đoạn js của anh Nguyễn Bá Nghĩa vì mình lười chưa code đoạn này :)))))
+Sử dụng đoạn js của anh Nguyễn Bá Nghĩa vì mình chưa code đoạn này
 Tham khảo link sau: https://www.youtube.com/watch?v=UbgG5kGFjls
-Phần còn lại thì để mình lo :v
 
-* Mới làm lần đầu nên structure và comment của mình hơi linh tinh,...
-Chưa sử dụng đến database như sql, nosql hay json mà thay vào đó sử dụng Excel =)))))
-Design pattern cũng không ổn, các bạn thông cảm....
+* Mới làm lần đầu nên structure và comment của hơi linh tinh,...
+Chưa sử dụng đến database như sql, nosql hay json mà thay vào đó sử dụng Excel
+Design pattern cũng không ổn
 
 * package dataSubject
 # ArrayListSubject
