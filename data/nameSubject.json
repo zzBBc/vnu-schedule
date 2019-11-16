@@ -1,0 +1,534 @@
+﻿[
+	{
+		"code": "CHE1048",
+		"name": "Hóa keo"
+	},
+	{
+		"code": "CHE1051",
+		"name": "Hóa học đại cương 1"
+	},
+	{
+		"code": "CHE1052",
+		"name": "Hóa học đại cương 2"
+	},
+	{
+		"code": "CHE1054",
+		"name": "Thực tập hóa học vô cơ 1 (TH)"
+	},
+	{
+		"code": "CHE1055",
+		"name": "Hóa học hữu cơ 1"
+	},
+	{
+		"code": "CHE1058",
+		"name": "Thực tập hóa học phân tích (TH)"
+	},
+	{
+		"code": "CHE1062",
+		"name": "Thực tập hóa kỹ thuật (TH)"
+	},
+	{
+		"code": "CHE1067",
+		"name": "Hóa học các hợp chất cao phân tử"
+	},
+	{
+		"code": "CHE1077",
+		"name": "Hóa học vô cơ 1"
+	},
+	{
+		"code": "CHE1082",
+		"name": "Cơ sở hóa học phân tích"
+	},
+	{
+		"code": "CHE1083",
+		"name": "Hóa lý 1"
+	},
+	{
+		"code": "CHE1084",
+		"name": "Hóa lý 2"
+	},
+	{
+		"code": "CHE1085",
+		"name": "Thực tập hóa lý 1 (TH)"
+	},
+	{
+		"code": "CHE1086",
+		"name": "Các phương pháp phân tích công cụ"
+	},
+	{
+		"code": "CHE1087",
+		"name": "Thực tập các phương pháp phân tích công cụ (TH)"
+	},
+	{
+		"code": "CHE1091",
+		"name": "Hóa kỹ thuật"
+	},
+	{
+		"code": "CHE1191",
+		"name": "Thực tập Hóa học hữu cơ 1 (TH)"
+	},
+	{
+		"code": "CHE2005",
+		"name": "Thực tập hóa học hữu cơ 2 (TH)"
+	},
+	{
+		"code": "CHE2008",
+		"name": "Thực tập hóa lý 2 (TH)"
+	},
+	{
+		"code": "CHE2014",
+		"name": "Dược lý"
+	},
+	{
+		"code": "CHE2058",
+		"name": "Hóa dược đại cương"
+	},
+	{
+		"code": "CHE2060",
+		"name": "Tổng hợp hóa dược"
+	},
+	{
+		"code": "CHE2061",
+		"name": "Thực tập hóa dược (TH)"
+	},
+	{
+		"code": "CHE2072",
+		"name": "Enzym và protein trong tổng hợp hóa dược"
+	},
+	{
+		"code": "CHE3142",
+		"name": "Hóa học các hợp chất thiên nhiên"
+	},
+	{
+		"code": "CHE3181",
+		"name": "Tổng hợp bất đối xứng"
+	},
+	{
+		"code": "CHE3184",
+		"name": "Sàng lọc và đánh giá hoạt tính của dược liệu"
+	},
+	{
+		"code": "CHE3185",
+		"name": "Thực phẩm chức năng"
+	},
+	{
+		"code": "CHE4052",
+		"name": "Khóa luận tốt nghiệp"
+	},
+	{
+		"code": "FLF2101",
+		"name": "Tiếng anh cơ sở 1"
+	},
+	{
+		"code": "FLF2102",
+		"name": "Tiếng anh cơ sở 2"
+	},
+	{
+		"code": "FLF2103",
+		"name": "Tiếng anh cơ sở 3"
+	},
+	{
+		"code": "GEO1050",
+		"name": "Khoa học trái đất và sự sống"
+	},
+	{
+		"code": "HIS1002",
+		"name": "Đường lối cách mạng của Đảng Cộng Sản Việt Nam"
+	},
+	{
+		"code": "HIS1056",
+		"name": "Cơ sở văn hóa Việt Nam"
+	},
+	{
+		"code": "INT1003",
+		"name": "Tin học cơ sở 1"
+	},
+	{
+		"code": "INT1005",
+		"name": "Tin học cơ sở 3"
+	},
+	{
+		"code": "INT1006",
+		"name": "Tin học cơ sở 4"
+	},
+	{
+		"code": "MAT1090",
+		"name": "Đại số tuyến tính"
+	},
+	{
+		"code": "MAT1091",
+		"name": "Giải tích 1"
+	},
+	{
+		"code": "MAT1092",
+		"name": "Giải tích 2"
+	},
+	{
+		"code": "MAT1101",
+		"name": "Xác suất thống kê"
+	},
+	{
+		"code": "MAT2300",
+		"name": "Đại số tuyến tính 1"
+	},
+	{
+		"code": "MAT2301",
+		"name": "Đại số tuyến tính 2"
+	},
+	{
+		"code": "MAT2302",
+		"name": "Giải tích 1"
+	},
+	{
+		"code": "MAT2303",
+		"name": "Giải tích 2"
+	},
+	{
+		"code": "MAT2304",
+		"name": "Giải tích 3"
+	},
+	{
+		"code": "MAT2306",
+		"name": "Phương trình đạo hàm riêng 1"
+	},
+	{
+		"code": "MAT2307",
+		"name": "Giải tích số 1"
+	},
+	{
+		"code": "MAT2308",
+		"name": "Xác suất 1"
+	},
+	{
+		"code": "MAT2309",
+		"name": "Tối ưu hóa 1"
+	},
+	{
+		"code": "MAT2310",
+		"name": "Hình học giải tích"
+	},
+	{
+		"code": "MAT2311",
+		"name": "Thống kê ứng dụng"
+	},
+	{
+		"code": "MAT2314",
+		"name": "Phương trình vi phân"
+	},
+	{
+		"code": "MAT2320",
+		"name": "Đại số tuyến tính 1(**)"
+	},
+	{
+		"code": "MAT2321",
+		"name": "Đại số tuyến tính 2(**)"
+	},
+	{
+		"code": "MAT2404",
+		"name": "Giải tích số"
+	},
+	{
+		"code": "MAT2405",
+		"name": "Xác suất"
+	},
+	{
+		"code": "MAT2406",
+		"name": "Thống kê ứng dụng"
+	},
+	{
+		"code": "MAT2407",
+		"name": "Tối ưu hóa"
+	},
+	{
+		"code": "MAT3160",
+		"name": "Kĩ thuật phát triển phần mềm hiện đại"
+	},
+	{
+		"code": "MAT3300",
+		"name": "Đại số đại cương"
+	},
+	{
+		"code": "MAT3301",
+		"name": "Giải tích hàm"
+	},
+	{
+		"code": "MAT3302",
+		"name": "Toán rời rạc"
+	},
+	{
+		"code": "MAT3304",
+		"name": "Thực hành tính toán"
+	},
+	{
+		"code": "MAT3305",
+		"name": "Tôpô đại cương"
+	},
+	{
+		"code": "MAT3306",
+		"name": "Cơ sở hình học vi phân"
+	},
+	{
+		"code": "MAT3307",
+		"name": "Lý thuyết độ đo và tích phân"
+	},
+	{
+		"code": "MAT3310",
+		"name": "Cơ sở tôpô đại số"
+	},
+	{
+		"code": "MAT3311",
+		"name": "Lý thuyết nhóm và biểu diễn nhóm"
+	},
+	{
+		"code": "MAT3312",
+		"name": "Hình học đại số"
+	},
+	{
+		"code": "MAT3313",
+		"name": "Lý thuyết số"
+	},
+	{
+		"code": "MAT3314",
+		"name": "tôpô vi phân"
+	},
+	{
+		"code": "MAT3315",
+		"name": "Không gian véctơ tôpô"
+	},
+	{
+		"code": "MAT3316",
+		"name": "Giải tích phổ toán tử"
+	},
+	{
+		"code": "MAT3317",
+		"name": "Phương trình đạo hàm riêng 2"
+	},
+	{
+		"code": "MAT3318",
+		"name": "Giải tích trên đa tạp"
+	},
+	{
+		"code": "MAT3320",
+		"name": "Phương trình tích phân"
+	},
+	{
+		"code": "MAT3321",
+		"name": "Quá trình ngẫu nhiên"
+	},
+	{
+		"code": "MAT3322",
+		"name": "Xác suất 2"
+	},
+	{
+		"code": "MAT3323",
+		"name": "Tối ưu rời rạc"
+	},
+	{
+		"code": "MAT3324",
+		"name": "Tổ hợp"
+	},
+	{
+		"code": "MAT3325",
+		"name": "Lịch sử toán học"
+	},
+	{
+		"code": "MAT3326",
+		"name": "Xêmina Toán lý thuyết"
+	},
+	{
+		"code": "MAT3327",
+		"name": "Điều khiển tối ưu"
+	},
+	{
+		"code": "MAT3328",
+		"name": "Phương pháp Monte-Carlo"
+	},
+	{
+		"code": "MAT3329",
+		"name": "Giải tích số 2"
+	},
+	{
+		"code": "MAT3330",
+		"name": "Tối ưu hóa 2"
+	},
+	{
+		"code": "MAT3333",
+		"name": "Các mô hình toán ứng dụng 1"
+	},
+	{
+		"code": "MAT3334",
+		"name": "Các mô hình toán ứng dụng 2"
+	},
+	{
+		"code": "MAT3335",
+		"name": "Đại số máy tính"
+	},
+	{
+		"code": "MAT3336",
+		"name": "Lý thuyết mật mã và an toàn thông tin"
+	},
+	{
+		"code": "MAT3337",
+		"name": "Xêmina Toán ứng dụng"
+	},
+	{
+		"code": "MAT3338",
+		"name": "Tiểu luận khoa học"
+	},
+	{
+		"code": "MAT3339",
+		"name": "Đại số tuyến tính 3"
+	},
+	{
+		"code": "MAT3344",
+		"name": "Giải tích phức"
+	},
+	{
+		"code": "MAT3345",
+		"name": "Lý thuyết ổn định của phương trình vi phân"
+	},
+	{
+		"code": "MAT3346",
+		"name": "Lý thuyết ước lượng và Kiểm định giả thiết"
+	},
+	{
+		"code": "MAT3347",
+		"name": "Lý thuyết Galois"
+	},
+	{
+		"code": "MAT3350",
+		"name": "Thuật toán tổ hợp"
+	},
+	{
+		"code": "MAT3450",
+		"name": "Đại số đại cương"
+	},
+	{
+		"code": "MAT3454",
+		"name": "Lý thuyết đồ thị"
+	},
+	{
+		"code": "MAT3456",
+		"name": "Logic ứng dụng"
+	},
+	{
+		"code": "MAT3500",
+		"name": "Toán rời rạc"
+	},
+	{
+		"code": "MAT3501",
+		"name": "Nguyên lý hệ điều hành"
+	},
+	{
+		"code": "MAT3504",
+		"name": "Thiết kế và đánh giá thuật toán"
+	},
+	{
+		"code": "MAT3506",
+		"name": "Mạng máy tính"
+	},
+	{
+		"code": "MAT3507",
+		"name": "Cơ sở dữ liệu"
+	},
+	{
+		"code": "MAT3509",
+		"name": "Ngôn ngữ hình thức và ôtômat"
+	},
+	{
+		"code": "MAT3514",
+		"name": "Cấu trúc dữ liệu và thuật toán"
+	},
+	{
+		"code": "MAT3532",
+		"name": "Tính toán song song"
+	},
+	{
+		"code": "MAT3533",
+		"name": "Học máy"
+	},
+	{
+		"code": "MAT3537",
+		"name": "Xử lí ảnh"
+	},
+	{
+		"code": "MAT3539",
+		"name": "Mật mã và an toàn dữ liệu"
+	},
+	{
+		"code": "MAT3544",
+		"name": "Phân tích và thiết kế hệ thống thông tin"
+	},
+	{
+		"code": "MAT3545",
+		"name": "Lý thuyết tính toán"
+	},
+	{
+		"code": "MAT4070",
+		"name": "Khóa luận tốt nghiệp"
+	},
+	{
+		"code": "MAT4072",
+		"name": "Một số vấn đề chọn lọc trong tính toán khoa học"
+	},
+	{
+		"code": "MAT4073",
+		"name": "Một số vấn đề chọn lọc trong tính toán khoa học"
+	},
+	{
+		"code": "MAT4076",
+		"name": "Một số vấn đề chọn lọc trong Toán học"
+	},
+	{
+		"code": "MAT4082",
+		"name": "Khóa luận tốt nghiệp"
+	},
+	{
+		"code": "PES1005",
+		"name": "Thể dục Aerobic 1"
+	},
+	{
+		"code": "PES1015",
+		"name": "Bóng chuyền 1"
+	},
+	{
+		"code": "PES1017",
+		"name": "Bóng chuyền hơi"
+	},
+	{
+		"code": "PES1020",
+		"name": "Bóng rổ 1"
+	},
+	{
+		"code": "PES1045",
+		"name": "Khiêu vũ 1"
+	},
+	{
+		"code": "PES1050",
+		"name": "Taekwondo 1"
+	},
+	{
+		"code": "PHI1004",
+		"name": "Những nguyên lý cơ bản của chủ nghĩa Mác-Lênin 1"
+	},
+	{
+		"code": "PHI1005",
+		"name": "Những nguyên lý cơ bản của chủ nghĩa Mác-Lênin 2"
+	},
+	{
+		"code": "PHY1100",
+		"name": "Cơ - Nhiệt"
+	},
+	{
+		"code": "PHY1103",
+		"name": "Điện - Quang"
+	},
+	{
+		"code": "PHY1104",
+		"name": "Thực hành vật lý đại cương"
+	},
+	{
+		"code": "POL1001",
+		"name": "Tư tưởng Hồ Chí Minh"
+	}
+]
