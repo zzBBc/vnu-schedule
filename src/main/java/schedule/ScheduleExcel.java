@@ -89,7 +89,7 @@ public class ScheduleExcel {
 		return list;
 	}
 
-	public static void main(String[] args) throws IOException {
+	public static void returnExcelSchedule() throws IOException {
 		SXSSFWorkbook TKB = new SXSSFWorkbook();
 
 		Subject[] subjects = json.InputJson.getDataSubject();
@@ -131,7 +131,7 @@ public class ScheduleExcel {
 
 		FileOutputStream outFile = new FileOutputStream(file);
 		TKB.write(outFile);
-		System.out.println("Created file: " + file.getAbsolutePath());
+		//System.out.println("Created file: " + file.getAbsolutePath());
 		TKB.close();
 	}
 

@@ -11,7 +11,7 @@ import dataSubject.ListSubject;
 
 public class DriverToSubject {
 
-	public static void main(String[] args) throws IOException {
+	public static void parseDataToJson() throws IOException {
 
 		Subject[] subjects = ListSubject.subjects("./data/AmazonloggedIn.txt");
 
@@ -19,7 +19,7 @@ public class DriverToSubject {
 
 		setName(subjects);
 
-		System.out.println("Succeed!");
+		//System.out.println("Succeed!");
 
 		mapper.writeValue(new File("./data/dataSubject.json"), subjects);
 

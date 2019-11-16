@@ -9,7 +9,7 @@ public class ImportSubject {
 	public static List<String> selectedSubject(Scanner scan) {
 		List<String> selectedSubject = new ArrayList<>();
 		System.out.println("Nhap cac ma mon hoc");
-		System.out.println("Nhap ok de ket thuc.");
+		System.out.println("Nhap ok de ket thuc:");
 		for(;;) {
 			String subject = scan.nextLine();
 			SIZE++;

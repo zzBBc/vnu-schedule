@@ -26,14 +26,4 @@ public class InputJson {
 
 		return nameSubjects;
 	}
-
-	public static void main(String[] args) throws JsonParseException, JsonMappingException, IOException {
-		Subject[] a = getDataSubject();
-		for(Subject e: a) {
-			System.out.println(e.getName());
-			for(Time ele : e.getTime())
-				System.out.println(ele.getDay());
-			System.out.println();
-		}
-	}
 }

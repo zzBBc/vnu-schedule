@@ -45,21 +45,6 @@ public class OptimizeSchedule {
 		return getFreeTime;
 	}
 
-	@SuppressWarnings("resource")
-	public static void main(String[] args) throws IOException {
-		FileInputStream scheduleInputStream = new FileInputStream(new File("./data/TKB.xlsx"));
-		XSSFWorkbook schedule = new XSSFWorkbook(scheduleInputStream);
-		schedule = optimizeSchedule(schedule);
-
-		File file = new File("./data/TKB.xlsx");
-		file.getParentFile().mkdirs();
-
-		FileOutputStream outputFile = new FileOutputStream(file);
-		schedule.write(outputFile);
-		schedule.close();
-		System.out.println("Created file: " + file.getAbsolutePath());
-	}
-
 	//optimal schedule
 	public static XSSFWorkbook optimizeSchedule(XSSFWorkbook schedule) {
 		int maxFreeTime = 0;
@@ -96,5 +81,20 @@ public class OptimizeSchedule {
 		if(numberOfSheets != lastNumberOfSheets ) optimizeSchedule(schedule);
 
 		return schedule;
+	}
+
+	@SuppressWarnings("resource")
+	public static void returnOptimizedSchedule() throws IOException {
+		FileInputStream scheduleInputStream = new FileInputStream(new File("./data/TKB.xlsx"));
+		XSSFWorkbook schedule = new XSSFWorkbook(scheduleInputStream);
+		schedule = optimizeSchedule(schedule);
+
+		File file = new File("./data/TKB.xlsx");
+		file.getParentFile().mkdirs();
+
+		FileOutputStream outputFile = new FileOutputStream(file);
+		schedule.write(outputFile);
+		schedule.close();
+		System.out.println("Created file: " + file.getAbsolutePath());
 	}
 }
