@@ -85,11 +85,11 @@ public class OptimizeSchedule {
 
 	@SuppressWarnings("resource")
 	public static void returnOptimizedSchedule() throws IOException {
-		FileInputStream scheduleInputStream = new FileInputStream(new File("./data/TKB.xlsx"));
+		FileInputStream scheduleInputStream = new FileInputStream(new File("./output/TKB.xlsx"));
 		XSSFWorkbook schedule = new XSSFWorkbook(scheduleInputStream);
 		schedule = optimizeSchedule(schedule);
 
-		File file = new File("./data/TKB.xlsx");
+		File file = new File("./output/TKB.xlsx");
 		file.getParentFile().mkdirs();
 
 		FileOutputStream outputFile = new FileOutputStream(file);

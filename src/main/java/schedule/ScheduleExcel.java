@@ -126,7 +126,7 @@ public class ScheduleExcel {
 		}
 
 		//Write File
-		File file = new File("./data/TKB.xlsx");
+		File file = new File("./output/TKB.xlsx");
 		file.getParentFile().mkdirs();
 
 		FileOutputStream outFile = new FileOutputStream(file);

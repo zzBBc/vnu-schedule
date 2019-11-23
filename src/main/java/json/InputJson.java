@@ -16,13 +16,13 @@ public class InputJson {
 
 		Gson gson = new Gson();
 
-		Subject[] object = gson.fromJson(new FileReader("./data/dataSubject.json"), Subject[].class);
+		Subject[] object = gson.fromJson(new FileReader("./src/main/resources/dataSubject.json"), Subject[].class);
 		return object;
 	}
 
 	public static NameSubject[] getNameSubject() throws IOException, JsonParseException, JsonMappingException {
 		ObjectMapper mapper = new ObjectMapper();
-		NameSubject[] nameSubjects = mapper.readValue(new File("./data/nameSubject.json"), NameSubject[].class);
+		NameSubject[] nameSubjects = mapper.readValue(new File("./src/main/resources/nameSubject.json"), NameSubject[].class);
 
 		return nameSubjects;
 	}

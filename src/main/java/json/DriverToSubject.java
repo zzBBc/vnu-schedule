@@ -13,7 +13,7 @@ public class DriverToSubject {
 
 	public static void parseDataToJson() throws IOException {
 
-		Subject[] subjects = ListSubject.subjects("./data/AmazonloggedIn.txt");
+		Subject[] subjects = ListSubject.subjects("./src/main/resources/AmazonloggedIn.txt");
 
 		ObjectMapper mapper = new ObjectMapper();
 
@@ -21,7 +21,7 @@ public class DriverToSubject {
 
 		//System.out.println("Succeed!");
 
-		mapper.writeValue(new File("./data/dataSubject.json"), subjects);
+		mapper.writeValue(new File("./src/main/resources/dataSubject.json"), subjects);
 
 	}
 
