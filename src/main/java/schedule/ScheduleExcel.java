@@ -121,7 +121,7 @@ public class ScheduleExcel {
 
 			String[] arrayName = tempArrayName.toArray(new String[0]);
 			String[] arrayCode = tempArrayCode.toArray(new String[0]);
-
+			
 			TKB = CreateSchedule.createSchedule(TKB, arrayTime, arrayName, j, arrayCode);
 		}
 
@@ -156,8 +156,9 @@ public class ScheduleExcel {
 		};
 
 		//First collum 1-10
-		for(rownum = 1; rownum < 11; rownum++) {
+		for(rownum = 1; rownum < 12; rownum++) {
 			row = sheet.createRow(rownum);
+			if(rownum == 11) break;
 			cell = row.createCell(0, CellType.STRING);
 			cell.setCellValue("" + rownum);
 		}

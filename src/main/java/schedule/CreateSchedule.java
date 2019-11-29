@@ -20,6 +20,9 @@ public class CreateSchedule {
 			String[] codeName) {
 		TKB = ScheduleExcel.scheduleFrames(TKB, "" + index);
 		SXSSFSheet tempSheet = TKB.getSheet("TKB " + index);
+		
+		WriteListCode.writeListCode(codeName, tempSheet);
+		
 		Row rowDate;
 		Cell cellDate = null;
 		int colnum = 0;

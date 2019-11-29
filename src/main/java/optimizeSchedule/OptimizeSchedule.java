@@ -11,16 +11,20 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class OptimizeSchedule {
-
+	public static final int TIME_END_IN_MORNING = 5;
+	public static final int TIME_END_IN_EVENING = 11;
+	public static final int MONDAY = 1;
+	public static final int FRIDAY = 5;
+	
 	//Get Free Time in a sheet
 	public static int getFreeTime(XSSFSheet scheduleSheet) {
 		int getFreeTime = 0;
 
 		//Free time morning
-		for(int colnum = 1; colnum < 6; colnum++) {
+		for(int colnum = MONDAY; colnum <= FRIDAY; colnum++) {
 			int count = 0;
 
-			for(int rownum = 1; rownum < 6; rownum++) {
+			for(int rownum = 1; rownum <= TIME_END_IN_MORNING; rownum++) {
 				Row row = scheduleSheet.getRow(rownum);
 				Cell cell = row.getCell(colnum);
 
@@ -30,10 +34,10 @@ public class OptimizeSchedule {
 		}
 
 		//Free time evening
-		for(int colnum = 1; colnum < 6; colnum++) {
+		for(int colnum = MONDAY; colnum <= FRIDAY; colnum++) {
 			int count = 0;
 
-			for(int rownum = 6; rownum < 11; rownum++) {
+			for(int rownum = 6; rownum <= TIME_END_IN_EVENING; rownum++) {
 				Row row = scheduleSheet.getRow(rownum);
 				Cell cell = row.getCell(colnum);
 
