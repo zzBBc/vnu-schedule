@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.com/zzBBc/vnu-schedule.svg?branch=master)](https://travis-ci.com/zzBBc/vnu-schedule)
 # Cách sử dụng
-- Đăng nhập trang đăng ký học của VNU sau đó get html, hoặc sử dụng tool của Nguyễn Bá Nghĩa get file AmazonLoggedIn.html
+- Đăng nhập trang đăng ký học của VNU sau đó get html, hoặc sử dụng phantomjs get file AmazonLoggedIn.html
 - Copy file vào trong thư mục vnu-schedule/data
 - Đổi phần mở rộng của file AmazonLoggedIn.html thành AmazonLoggedIn.txt.
 
