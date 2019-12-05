@@ -1,10 +1,7 @@
-[![Build Status](https://travis-ci.com/zzBBc/vnu-schedule.svg?branch=master)](https://travis-ci.com/zzBBc/vnu-schedule)
+﻿[![Build Status](https://travis-ci.com/zzBBc/vnu-schedule.svg?branch=master)](https://travis-ci.com/zzBBc/vnu-schedule)
 # Cách sử dụng
-- Đăng nhập trang đăng ký học của VNU sau đó get html, hoặc sử dụng phantomjs get file AmazonLoggedIn.html
-- Copy file vào trong thư mục vnu-schedule/data
-- Đổi phần mở rộng của file AmazonLoggedIn.html thành AmazonLoggedIn.txt.
-
--
+- Sửa file app.js trong folder phantomjs, sửa value LoginName và Password thành tài khoản vnu của bạn
+- Mở cmd trong thư mục trên, chạy lệnh: ./phantomjs app.js
 - Chạy MainClass trong package main. Nhập mã môn học những môn muốn đăng ký tín chỉ vào console, yêu cầu nhập chính xác chữ in hoa. Mỗi môn học trên môn dòng. Sau khi nhập xong hết. Nhập "ok" để chương trình xử lý
 - Đợi cho đến khi chương trình chạy xong.
 - Cuối cùng bạn có được file TKB.xlsx trong folder ./data là file sẽ lưu trữ tất cả những thời khóa biểu để đăng ký phù hợp với yêu cầu của bạn.
