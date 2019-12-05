@@ -13,7 +13,7 @@ public class DriverToSubject {
 
 	public static void parseDataToJson() throws IOException {
 
-		Subject[] subjects = ListSubject.subjects("./src/main/resources/AmazonloggedIn.txt");
+		Subject[] subjects = ListSubject.subjects("./phantomjs/content.txt");
 
 		ObjectMapper mapper = new ObjectMapper();
 
