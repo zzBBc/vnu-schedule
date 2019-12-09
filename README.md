@@ -5,6 +5,7 @@
 - Chạy MainClass trong package main. Nhập mã môn học những môn muốn đăng ký tín chỉ vào console, yêu cầu nhập chính xác chữ in hoa. Mỗi môn học trên môn dòng. Sau khi nhập xong hết. Nhập "ok" để chương trình xử lý
 - Đợi cho đến khi chương trình chạy xong.
 - Cuối cùng bạn có được file TKB.xlsx trong folder ./data là file sẽ lưu trữ tất cả những thời khóa biểu để đăng ký phù hợp với yêu cầu của bạn.
+- Để tạo frames cho Excel, import 2 file marco cho Excel, sau đó dùng tổ hợp phím Ctrl + Shift + X để sử dụng marco vừa thêm vào
 
 # vnu-schedule
 Tạo thời khóa biểu khả dụng của VNU trước khi đăng ký tín chỉ, tạo thuận lợi cho việc đăng ký môn
