@@ -18,9 +18,9 @@ public class OptimizeSchedule {
 
 	// Get Free Time in a sheet
 	public static int getFreeTime(XSSFSheet scheduleSheet) {
+		// Free time morning
 		int getFreeTime = 0;
 
-		// Free time morning
 		for (int colnum = MONDAY; colnum <= FRIDAY; colnum++) {
 			int count = 0;
 
