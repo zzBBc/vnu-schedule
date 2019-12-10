@@ -45,6 +45,7 @@ public class ScheduleExcel {
 
 			codePerTime.add(listSubject);
 		}
+
 		return codePerTime;
 	}
 
@@ -121,7 +122,7 @@ public class ScheduleExcel {
 
 			String[] arrayName = tempArrayName.toArray(new String[0]);
 			String[] arrayCode = tempArrayCode.toArray(new String[0]);
-			
+
 			TKB = CreateSchedule.createSchedule(TKB, arrayTime, arrayName, j, arrayCode);
 		}
 

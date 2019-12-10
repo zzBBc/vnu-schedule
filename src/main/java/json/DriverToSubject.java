@@ -22,7 +22,6 @@ public class DriverToSubject {
 		//System.out.println("Succeed!");
 
 		mapper.writeValue(new File("./src/main/resources/dataSubject.json"), subjects);
-
 	}
 
 	public static void setName(Subject[] subjects) throws JsonParseException, JsonMappingException, IOException {

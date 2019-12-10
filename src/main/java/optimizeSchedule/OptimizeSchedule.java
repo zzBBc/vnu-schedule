@@ -12,77 +12,82 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class OptimizeSchedule {
 	public static final int TIME_END_IN_MORNING = 5;
-	public static final int TIME_END_IN_EVENING = 11;
+	public static final int TIME_END_IN_EVENING = 10;
 	public static final int MONDAY = 1;
 	public static final int FRIDAY = 5;
-	
-	//Get Free Time in a sheet
+
+	// Get Free Time in a sheet
 	public static int getFreeTime(XSSFSheet scheduleSheet) {
 		int getFreeTime = 0;
 
-		//Free time morning
-		for(int colnum = MONDAY; colnum <= FRIDAY; colnum++) {
+		// Free time morning
+		for (int colnum = MONDAY; colnum <= FRIDAY; colnum++) {
 			int count = 0;
 
-			for(int rownum = 1; rownum <= TIME_END_IN_MORNING; rownum++) {
+			for (int rownum = 1; rownum <= TIME_END_IN_MORNING; rownum++) {
 				Row row = scheduleSheet.getRow(rownum);
 				Cell cell = row.getCell(colnum);
 
-				if(cell == null) count++;
+				if (cell == null)
+					count++;
 			}
-			if (count == 5) getFreeTime++;
-		}
+			if (count == 5)
+				getFreeTime++;
 
-		//Free time evening
-		for(int colnum = MONDAY; colnum <= FRIDAY; colnum++) {
-			int count = 0;
+			// Free time evening
+			count = 0;
 
-			for(int rownum = 6; rownum <= TIME_END_IN_EVENING; rownum++) {
+			for (int rownum = 6; rownum <= TIME_END_IN_EVENING; rownum++) {
 				Row row = scheduleSheet.getRow(rownum);
 				Cell cell = row.getCell(colnum);
 
-				if(cell == null) count++;
+				if (cell == null)
+					count++;
 			}
 
-			if (count == 5) getFreeTime++;
+			if (count == 5)
+				getFreeTime++;
 		}
+
 		return getFreeTime;
 	}
 
-	//optimal schedule
+	// optimal schedule
 	public static XSSFWorkbook optimizeSchedule(XSSFWorkbook schedule) {
 		int maxFreeTime = 0;
 
 		int lastNumberOfSheets = schedule.getNumberOfSheets();
 		int numberOfSheets = schedule.getNumberOfSheets();
-		//System.out.println(numberOfSheets);
-		//Get max free time a
-		for(int sheetnum = 0; sheetnum < numberOfSheets; sheetnum++) {
-			//System.out.println(sheetnum);
+		// System.out.println(numberOfSheets);
+		// Get max free time a
+		for (int sheetnum = 0; sheetnum < numberOfSheets; sheetnum++) {
+			// System.out.println(sheetnum);
 			XSSFSheet scheduleSheet = schedule.getSheetAt(sheetnum);
 			int sheetFreeTime = getFreeTime(scheduleSheet);
 
-			if(sheetFreeTime > maxFreeTime)
+			if (sheetFreeTime > maxFreeTime)
 				maxFreeTime = sheetFreeTime;
-			//System.out.println(schedule.getSheetName(sheetnum));
+			// System.out.println(schedule.getSheetName(sheetnum));
 		}
-		//System.out.println();
-		//System.out.println(maxFreeTime);
-		for(int sheetnum = 0; sheetnum < numberOfSheets; sheetnum++) {
+
+		System.out.println();
+		System.out.println(maxFreeTime);
+		for (int sheetnum = 0; sheetnum < numberOfSheets; sheetnum++) {
 			XSSFSheet scheduleSheet = schedule.getSheetAt(sheetnum);
-			//System.out.println(scheduleSheet.getRow(0).getCell(0));
+			// System.out.println(scheduleSheet.getRow(0).getCell(0));
 			int sheetFreeTime = getFreeTime(scheduleSheet);
 
-			if(sheetFreeTime != maxFreeTime) {
-				//System.out.println(sheetFreeTime);
-				//System.out.println("deleted " + schedule.getSheetName(sheetnum));
+			if (sheetFreeTime != maxFreeTime) {
+				// System.out.println(sheetFreeTime);
+				// System.out.println("deleted " + schedule.getSheetName(sheetnum));
 				schedule.removeSheetAt(sheetnum);
-				//System.out.println(schedule.getNumberOfSheets());
+				// System.out.println(schedule.getNumberOfSheets());
 				numberOfSheets -= 1;
 			}
 		}
 
-		if(numberOfSheets != lastNumberOfSheets ) optimizeSchedule(schedule);
+		if (numberOfSheets != lastNumberOfSheets)
+			optimizeSchedule(schedule);
 
 		return schedule;
 	}
